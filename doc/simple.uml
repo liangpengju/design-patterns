@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.feiyue.factory.simple</OriginalElement>
+  <nodes>
+    <node x="426.0" y="151.0">com.feiyue.factory.simple.OperationAdd</node>
+    <node x="639.0" y="151.0">com.feiyue.factory.simple.OperationDiv</node>
+    <node x="213.0" y="151.0">com.feiyue.factory.simple.OperationMul</node>
+    <node x="7.0" y="300.0">com.feiyue.factory.simple.Client</node>
+    <node x="0.0" y="151.0">com.feiyue.factory.simple.OperationSub</node>
+    <node x="299.0" y="301.0">com.feiyue.factory.simple.OperationFactory</node>
+    <node x="299.5" y="0.0">com.feiyue.factory.simple.Operation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.feiyue.factory.simple.OperationFactory" target="com.feiyue.factory.simple.OperationSub">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.feiyue.factory.simple.OperationFactory" target="com.feiyue.factory.simple.OperationDiv">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.feiyue.factory.simple.OperationFactory" target="com.feiyue.factory.simple.OperationAdd">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.feiyue.factory.simple.OperationSub" target="com.feiyue.factory.simple.Operation">
+      <point x="0.0" y="-27.0" />
+      <point x="96.5" y="121.0" />
+      <point x="328.625" y="121.0" />
+      <point x="-87.375" y="50.5" />
+    </edge>
+    <edge source="com.feiyue.factory.simple.OperationAdd" target="com.feiyue.factory.simple.Operation">
+      <point x="0.0" y="-27.0" />
+      <point x="522.5" y="131.0" />
+      <point x="445.125" y="131.0" />
+      <point x="29.125" y="50.5" />
+    </edge>
+    <edge source="com.feiyue.factory.simple.OperationMul" target="com.feiyue.factory.simple.Operation">
+      <point x="0.0" y="-27.0" />
+      <point x="309.5" y="131.0" />
+      <point x="386.875" y="131.0" />
+      <point x="-29.125" y="50.5" />
+    </edge>
+    <edge source="com.feiyue.factory.simple.OperationFactory" target="com.feiyue.factory.simple.OperationMul">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.feiyue.factory.simple.OperationDiv" target="com.feiyue.factory.simple.Operation">
+      <point x="0.0" y="-27.0" />
+      <point x="735.5" y="121.0" />
+      <point x="503.375" y="121.0" />
+      <point x="87.375" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="259.0" y="206.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

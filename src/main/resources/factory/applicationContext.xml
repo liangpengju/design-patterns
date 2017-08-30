@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="car" class="com.feiyue.factory.spring.Car">
+    </bean>
+
+    <!--  //v=com.bjsxt.spring.factory.Car  -->
+
+
+</beans>
