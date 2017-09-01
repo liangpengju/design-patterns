@@ -12,4 +12,6 @@ public interface IFactory {
 
     //创建水果实例对象
     IFruit createFruit();
+
+
 }

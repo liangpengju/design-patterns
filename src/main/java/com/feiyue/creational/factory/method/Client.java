@@ -11,10 +11,17 @@ package com.feiyue.creational.factory.method;
 public class Client {
 
     public static void main(String[] args) {
-        //抽象工厂
+        //抽象工厂1
         IFactory iFactory = new AppleFactory();
         //抽象产品
         IFruit iFruit = iFactory.createFruit();
         iFruit.getFruit();
+
+        //抽象工厂2
+        IFactory2 iFactory2 = new ConcreteFactory();
+        //抽象产品，根据参数创建产品型号
+        IFruit iFruit2 = iFactory2.createFruit(Banana.class);
+        iFruit2.getFruit();
+
     }
 }
