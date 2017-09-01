@@ -4,7 +4,5 @@
     <bean id="car" class="com.feiyue.factory.spring.Car">
     </bean>
 
-    <!--  //v=com.bjsxt.spring.factory.Car  -->
-
 
 </beans>
