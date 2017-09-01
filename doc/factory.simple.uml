@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.feiyue.creational.factory.method.simple</OriginalElement>
+  <nodes>
+    <node x="170.0" y="256.0">com.feiyue.creational.factory.method.simple.Factory</node>
+    <node x="173.0" y="104.0">com.feiyue.creational.factory.method.simple.Orange</node>
+    <node x="173.0" y="0.0">com.feiyue.creational.factory.method.simple.IFruit</node>
+    <node x="346.0" y="104.0">com.feiyue.creational.factory.method.simple.Banana</node>
+    <node x="0.0" y="104.0">com.feiyue.creational.factory.method.simple.Apple</node>
+    <node x="-68.0" y="253.0">com.feiyue.creational.factory.method.simple.Client</node>
+    <node x="421.0" y="203.0">com.feiyue.creational.factory.method.simple.FType</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.feiyue.creational.factory.method.simple.Factory" target="com.feiyue.creational.factory.method.simple.Banana">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.feiyue.creational.factory.method.simple.Banana" target="com.feiyue.creational.factory.method.simple.IFruit">
+      <point x="0.0" y="-27.0" />
+      <point x="422.5" y="79.0" />
+      <point x="300.5" y="79.0" />
+      <point x="51.0" y="27.0" />
+    </edge>
+    <edge source="com.feiyue.creational.factory.method.simple.Factory" target="com.feiyue.creational.factory.method.simple.Apple">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.feiyue.creational.factory.method.simple.Factory" target="com.feiyue.creational.factory.method.simple.Orange">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.feiyue.creational.factory.method.simple.Apple" target="com.feiyue.creational.factory.method.simple.IFruit">
+      <point x="0.0" y="-27.0" />
+      <point x="76.5" y="79.0" />
+      <point x="198.5" y="79.0" />
+      <point x="-51.0" y="27.0" />
+    </edge>
+    <edge source="com.feiyue.creational.factory.method.simple.Factory" target="com.feiyue.creational.factory.method.simple.Client">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.feiyue.creational.factory.method.simple.Orange" target="com.feiyue.creational.factory.method.simple.IFruit">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="249.5" y="264.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
